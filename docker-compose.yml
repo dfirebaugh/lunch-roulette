@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  lunch-rouette: 
+    build: .
+    env_file:
+      - .env
+    ports:
+      - 80:80
+      - 443:443

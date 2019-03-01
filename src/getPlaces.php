@@ -5,6 +5,7 @@
   // building url to fetch
   $baseurl = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=';
   $key = getenv('API_KEY');
+  // $key = "removed";
   $location = "&location=" . $lat . "," . $lon;
   $radius = '&radius=3000&type=restaurant';
   $url = $baseurl . $key . $location . $radius;

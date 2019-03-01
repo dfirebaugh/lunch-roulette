@@ -1,4 +1,11 @@
-getLocation();
+//getLocation();
+
+// $("#launch-button").click(function())
+// $.ajax({})
+
+//("#launch-button").onclick = getLocation;
+
+document.getElementById('launch-button').addEventListener('click', getLocation)
 
 function getLocation() {
   const getPosition = () => {

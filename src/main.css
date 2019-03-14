@@ -1,0 +1,45 @@
+h1{
+    color: #f44336;
+    font-size: 8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: .1em;
+}
+
+body{
+    background: black;
+                color: white;
+}
+
+.centeredContent{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    border-style: double;
+    border-width: .1em;
+    padding-bottom: 4em;
+    border-color: #f44336;
+    /* text-align: center; */
+
+    
+}
+
+#launch-button{
+   
+        background-color: #f44336; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+
+}
+
+#lunchbox{
+    text-align: center;
+    padding-top: .3em;
+    /* margin: .1em;
+    width: 80%; */
+    /* margin-left: 40px; */
+}
